@@ -23,7 +23,7 @@ Postoji nekoliko modela mrezne komunikacije. Referentni model je OSI model koji 
 
 U praksi se cesce koristi jednostavniji model koji integrise odredjene slojve. TCP/IP model koji se zasniva na dva osnovna protokola TCP I IP. 
 
-
+<img alt="alt_text" width="400px" src="img/modeli.jpg" />
 
 Neki od najbitnijih protokola TCP/IP modela su :
 
