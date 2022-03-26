@@ -36,10 +36,10 @@ Neki od najbitnijih protokola TCP/IP modela su :
 #### Prosto ucitavanje stranice u veb citac
 
 - ***Veb server*** salje HTML fajl klijentu koristeci HTTP protokol
-- Sloj aplikaije gdje se izvrsava HTTP program zahtjeva od TCP sloja da uspostavi komunikaciju i posalje fajl
-- TCP stek dijeli fajlove u pakete, numerise ih i pojedinacno ih prosledjuje IP sloju na slanje
-- paketi mogu biti poslani razlicitim rutama
-- TCP program na klijentskom racunaru ceka da svi paketi stignu, salje potvrdu za pakete koji su primljeni, zahtjeva ponovno slanje paketa koji nisu stigli ( na osnovu brojeva paketa koji fale). Nakon toga sklapa sve pakete i prosledjuje fajl veb citacnu na strani klijenta.
+- ***Sloj aplikaije*** gdje se izvrsava HTTP program zahtjeva od TCP sloja da uspostavi komunikaciju i posalje fajl
+- ***TCP stek*** dijeli fajlove u pakete, numerise ih i pojedinacno ih prosledjuje IP sloju na slanje
+- ***paketi*** mogu biti poslani razlicitim rutama
+- ***TCP program*** na klijentskom racunaru ceka da svi paketi stignu, salje potvrdu za pakete koji su primljeni, zahtjeva ponovno slanje paketa koji nisu stigli ( na osnovu brojeva paketa koji fale). Nakon toga sklapa sve pakete i prosledjuje fajl veb citacnu na strani klijenta.
 
 Visi nivoi pakuji podatke i salju ih nizim nivoima koji ce ih poslati preko mreze. Samo slanje podataka se desava na najnizem sloju. Dok primanje podataka se desava na na visim nivoima.
 
